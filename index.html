@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cupcake">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
+    <!-- tailwind with daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header>
@@ -12,12 +15,54 @@
 
         </nav>
         <!-- hero/banner section -->
-        <div class="container mx-auto bg-red-500">
-<h2>We Provide Effective Legal Solutions</h2>
+        <div class="max-w-screen-xl mx-auto my-10 px-8 md:px-16 lg:px 24 py-5">
+            <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
         </div>
     </header>
     <main>
-
+<!-- legal practice section -->
+        <section class="max-w-screen-xl mx-auto my-10 px-8 md:px-16 lg:px 24 py-5">
+            <div class="text-center">
+                <h2 class="text-5xl mb-5">The Legal Practice Area</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="mt-16 flex flex-cols-1 md:flex-cols-2 px-16 py-40 gap-5 text-center">
+                <div class="card bg-whte ">
+                    <figure><img src="/images/business.png" alt="Shoes" /></figure>
+                    <div class="ard-body">
+                      <h2 class="card-title text-center">business Law</h2>
+                      <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      
+                    </div>
+                  </div>
+                <div class="card bg-whte text-center ">
+                    <figure><img src="/images/criminal.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Criminal Law</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      
+                    </div>
+                  </div>
+                <div class="card  bg-whte">
+                    <figure><img src="/images/child.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Child Law</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      
+                    </div>
+                  </div>
+            </div>
+        </section>
     </main>
     <footer>
 
